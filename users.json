@@ -1,0 +1,44 @@
+{
+    "bekward@gmail.com": {
+        "fullname": "Beka Shvelidze",
+        "email": "bekward@gmail.com",
+        "phonenumber": "598080090",
+        "position": "გაყიდვების მენეჯერი",
+        "password": "reloaded86"
+    },
+    "kvirtian@yahoo.com": {
+        "fullname": "ნიკო კვირტია",
+        "email": "kvirtian@yahoo.com",
+        "phonenumber": "577948419",
+        "position": "HR",
+        "password": "reloaded"
+    },
+    "muzalasha@yahoo.com": {
+        "fullname": "ლაშა მუზშვილი",
+        "email": "muzalasha@yahoo.com",
+        "phonenumber": "577382910",
+        "position": "გაყიდვების მენეჯერი",
+        "password": "12345"
+    },
+    "kjgkhgkkjhf": {
+        "fullname": "khgkg",
+        "email": "kjgkhgkkjhf",
+        "phonenumber": "mb,mb.mn.,n.,n",
+        "position": ",mb,mb,mb",
+        "password": "123"
+    },
+    "test": {
+        "fullname": "test",
+        "email": "test",
+        "phonenumber": "3232",
+        "position": "გაყიდვების მენეჯერი",
+        "password": "re"
+    },
+    "te": {
+        "fullname": "gfsdf",
+        "email": "te",
+        "phonenumber": "5456",
+        "position": "ხარჯთაღმრიცხველი",
+        "password": "re"
+    }
+}

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>635</width>
+    <height>465</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="client_label">
+    <property name="geometry">
+     <rect>
+      <x>47</x>
+      <y>90</y>
+      <width>131</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>კლიენტის სახელი</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="visit_date_label">
+    <property name="geometry">
+     <rect>
+      <x>47</x>
+      <y>126</y>
+      <width>192</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ვიზიტის ჩანიშვნის თარიღი</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sales_manager_label">
+    <property name="geometry">
+     <rect>
+      <x>47</x>
+      <y>161</y>
+      <width>152</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>გაყიდვების მენეჯერი</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="address_label">
+    <property name="geometry">
+     <rect>
+      <x>47</x>
+      <y>197</y>
+      <width>79</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>მისამართი</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="work_type_label">
+    <property name="geometry">
+     <rect>
+      <x>47</x>
+      <y>233</y>
+      <width>227</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>შესასრულებელი სამუშაოს ტიპი</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="code_label">
+    <property name="geometry">
+     <rect>
+      <x>47</x>
+      <y>268</y>
+      <width>135</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>საკადასტრო კოდი</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="phone_label">
+    <property name="geometry">
+     <rect>
+      <x>47</x>
+      <y>304</y>
+      <width>240</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>საკონტაქტო ტელეფონის ნომერი</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="building_label">
+    <property name="geometry">
+     <rect>
+      <x>47</x>
+      <y>339</y>
+      <width>95</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>შენობის ტიპი</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="client_name">
+    <property name="geometry">
+     <rect>
+      <x>337</x>
+      <y>90</y>
+      <width>250</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="address">
+    <property name="geometry">
+     <rect>
+      <x>337</x>
+      <y>197</y>
+      <width>250</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="code">
+    <property name="geometry">
+     <rect>
+      <x>337</x>
+      <y>268</y>
+      <width>250</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="phone">
+    <property name="geometry">
+     <rect>
+      <x>337</x>
+      <y>304</y>
+      <width>250</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="visit_date">
+    <property name="geometry">
+     <rect>
+      <x>337</x>
+      <y>126</y>
+      <width>250</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="displayFormat">
+     <string>dd/MM/yyyy</string>
+    </property>
+    <property name="calendarPopup">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="sales_manager">
+    <property name="geometry">
+     <rect>
+      <x>337</x>
+      <y>160</y>
+      <width>250</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="work_type">
+    <property name="geometry">
+     <rect>
+      <x>337</x>
+      <y>233</y>
+      <width>250</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>მშენებლობა</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>რემონტი</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="building_type">
+    <property name="geometry">
+     <rect>
+      <x>337</x>
+      <y>339</y>
+      <width>250</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>კერძო სახლი</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>კორპუსი</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="add_client">
+    <property name="geometry">
+     <rect>
+      <x>337</x>
+      <y>374</y>
+      <width>120</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu Condensed</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>დამატება</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>553</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu Condensed</family>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>ახალი კლიენტის დამატება ბაზაში</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="close_button">
+    <property name="geometry">
+     <rect>
+      <x>467</x>
+      <y>374</y>
+      <width>120</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu Condensed</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>დახურვა</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>635</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>client_name</tabstop>
+  <tabstop>visit_date</tabstop>
+  <tabstop>sales_manager</tabstop>
+  <tabstop>address</tabstop>
+  <tabstop>work_type</tabstop>
+  <tabstop>code</tabstop>
+  <tabstop>phone</tabstop>
+  <tabstop>building_type</tabstop>
+  <tabstop>add_client</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
